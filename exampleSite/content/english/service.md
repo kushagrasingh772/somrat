@@ -2,30 +2,28 @@
 title : "SERVICES"
 service_list:
 # service item loop
-- name : "Web Development"
-  image : "images/icons/web-development.png"
+- name : "Blockchain Development"
+  image : "images/icons/block.jpg"
   
 # service item loop
-- name : "Graphic Design"
-  image : "images/icons/graphic-design.png"
-  
-# service item loop
-- name : "Database Management"
-  image : "images/icons/dbms.png"
+- name : "Data Analysis"
+  image : "images/icons/data.png"
   
 # service item loop
 - name : "Software Development"
   image : "images/icons/software-development.png"
   
 # service item loop
-- name : "Digital Marketing"
-  image : "images/icons/marketing.png"
-  
+- name : "Machine Learning"
+  image : "images/icons/download.jfif"  
+
 # service item loop
-- name : "Mobile App Development"
-  image : "images/icons/mobile-app.png"
+- name : "Smart Contracts"
+  image : "images/icons/smart.jpg"  
 
-
+# service item loop
+- name : "Content Writing"
+  image : "images/icons/writerlogo.jpg"
 
 # custom style
 custom_class: "" 

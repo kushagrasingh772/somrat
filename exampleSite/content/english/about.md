@@ -1,11 +1,11 @@
 ---
 title : "KNOW MORE <br> ABOUT ME"
-image : "images/backgrounds/portrait.jpg"
+image : "images/backgrounds/photo1.jpg"
 # button
 button:
   enable : true
   label : "DOWNLOAD MY CV"
-  link : "#"
+  link : "https://www.linkedin.com/in/kushagra-singh-16ba661a5/overlay/1635494500951/single-media-viewer/"
 
 ########################### Experience ##############################
 experience:
@@ -13,22 +13,40 @@ experience:
   title : "EXPERIENCE"
   experience_list:
     # experience item loop
-    - name : "Web Developer"
-      company : "Fiverr.com"
-      duration : "2016-2018"
+    - name : "Software Engineer Intern"
+      company : "Nagarro"
+      duration : "(June 2022-present)"
       content : "I work with HTML, CSS, and Javascript to create websites and web applications like Personal, Business, Blog, E-comerches etc."
       
     # experience item loop
-    - name : "Graphic Designer"
-      company : "Fiverr.com"
-      duration : "2015-2018"
-      content : "Graphic design is art with a purpose. I love illustration, so logo desing is my favorite work. But i can do many things with graphics."
+    - name : "India Internet Research and Operations Team Intern"
+      company : "Oppo"
+      duration : "(January 2022-May 2022)"
+      content : "Worked as an Intern lead and used data tools to analyze the data related to Mobile gaming, inorder to produce quality content for the One Plus Games App and undertook responisibility of the work of my team as well."
       
     # experience item loop
-    - name : "Database Manager"
-      company : "Polytechnic"
-      duration : "2014-2018"
-      content : "Database management is among the fundamental processes in the software field of computing. I know MS Access very well."
+    - name : "Machine Learning/Data Science Coordinator"
+      company : "Google Developer Students Club JIIT128"
+      duration : "(2021-present)"
+      content : "Part of the core team of Google Developer Students Club of Jaypee Institute of Information Technology sector 128 chapter. Held various Hackathons with the team and organized talks regarding various subjects such as Cyber Security, Machine Learning, Data Science, Web Development"
+
+    # experience item loop
+    - name : "Core Member"
+      company : "JIIT Open-Source Developers Circle"
+      duration : "(2020-2021)"
+      content : "Part of the core team of JIIT Open-Source Developers Circle of Jaypee Institute of Information Technology sector 128. Helped the team carry out various activities related to open source to create awareness about it."
+
+    # experience item loop
+    - name : "Volunteer"
+      company : "NSS- National Service Scheme"
+      duration : "(2019-present)"
+      content : "Took part in various NSS activites and did social welfare work ranging from organizing and taking part in Blood Donation Drive, Literacy drives, Organizing teaching sessions for the economical weaker section of students and did other social service work."
+    
+    # experience item loop
+    - name : "Digital/Social Media Head"
+      company : "Panache- Fashion Society of JIIT128"
+      duration : "(2019-present)"
+      content : "Digital head of Panache- Fashion Society of Jaypee Institute of Information Technology sector 128. Helped the team organize various competitions and lead the social handles of the team."
 
 ############################### Skill #################################
 skill:
@@ -36,26 +54,38 @@ skill:
   title : "SKILL"
   skill_list:
     # skill item loop
-    - name : "Web Development"
+    - name : "Blockchain"
       percentage : "98%"
       
     # skill item loop
-    - name : "Graphic Design"
-      percentage : "85%"
+    - name : "Data Analysis"
+      percentage : "98%"
       
     # skill item loop
-    - name : "Database Management"
+    - name : "Machine Learning"
       percentage : "90%"
       
     # skill item loop
-    - name : "Wordpress"
-      percentage : "70%"
+    - name : "C++"
+      percentage : "85%"
 
+    # skill item loop
+    - name : "Solidity"
+      percentage : "80%"
 
+    # skill item loop
+    - name : "Python"
+      percentage : "80%"
+
+    # skill item loop
+    - name : "Conent Writing"
+      percentage : "90%"
+
+      
 # custom style
 custom_class: "" 
 custom_attributes: "" 
 custom_css: ""
 ---
 
-It's Somrat, Professional Web Developer. I love to write code, it's my passoin. I am here to help you, i am here to design your web page. i can help you to describe yourself in the best way.<br>No matter how difficult your web page is, i will find an easy way and complete your work anyway. Stay connect with me........😊
+Hi my name is Kushagra Singh, I am a data science enthusiast, a competitive programmer and a blockchain developer. I love to write code, it's my passion. My passion for data science helps me to see the immense potential any and every raw data contains, and with the advent of Blockchain and Web 3.0 the possibility of revolutionizing the tech world is endless. I am very excited about these two fields and have devoted a lot of time of mine in learning about them. I would love to interact and work with like minded people inorded to build something or work towards a goal which helps everyone in the grand scheme of things and technology. The future is exciting and great things are about to come! 

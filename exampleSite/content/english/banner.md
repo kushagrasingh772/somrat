@@ -1,26 +1,26 @@
 ---
-title : "I'm Somrat Sorkar"
+title : "I'm Kushagra Singh"
 # full screen navigation
-first_name : "MacGyver"
-last_name : "SOMRAT"
-bg_image : "images/backgrounds/full-nav-bg.jpg"
+first_name : "Kushagra"
+last_name : "Singh"
+bg_image : "images/backgrounds/bgbg.jpg"
 # animated text loop
 occupations:
-- "Web Developer"
-- "Graphic Designer"
-- "Database Manager"
+- "Data Analyst"
+- "BlockChain Developer"
+- "Software Engineer"
 
 # slider background image loop
 slider_images:
-- "images/slider/slider-1.jpg"
-- "images/slider/slider-2.jpg"
 - "images/slider/slider-3.jpg"
+- "images/slider/ks.jpg"
+- "images/slider/back5.jpeg"
 
 # button
 button:
-  enable : true
+  enable : false
   label : "HIRE ME"
-  link : "#contact"
+  link : "#"
 
 
 # custom style

@@ -1,48 +1,66 @@
 ---
-title: "Project Title"
+title: "Employee Risk Management"
 date: 2020-05-12T12:14:34+06:00
-image: "images/portfolio/item5.jpg"
-categories: ["design","sketch"]
+image: "images/portfolio/emprisk.jpg"
+categories: ["Data Science", "Machine Learning"]
 description: "This is meta description."
 draft: false
 project_info:
-- name: "Client"
+- name: "Employee Risk Management"
   icon: "fas fa-user"
-  content: "John Doe"
+  content: "Kushagra Singh"
 - name: "Project Link"
   icon: "fas fa-link"
-  content: "https://examplesite.com/"
-- name: "New Item"
-  icon: "fas fa-globe"
-  content: "Add whatever you want"
-- name: "Loop Item"
-  icon: "fas fa-redo"
-  content: "This is in a loop"
+  content: "https://www.kaggle.com/code/perkymaster/employee-risk"
+# - name: "New Item"
+#   icon: "fas fa-globe"
+#   content: "Add whatever you want"
+# - name: "Loop Item"
+#   icon: "fas fa-redo"
+#   content: "This is in a loop"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-mollit anim id est laborum.
+Hello everyone,
+
+This is my take on the binary classification of determining employees who are at a risk of termination or not.
+
+It is a Binary Classification Problem. The tools used are:
+
+- Pandas for data manipulation and ingestion
+
+- Numpy for multidimensional array computing
+
+- Matplotlib and seaborn for data visualization
+
+- Word Cloud for geeting the most populare string
+
+- Imblearn for oversampling of the model
+
+- Scikit Learn for Data Preprocessing
 
 
-#### Project Details
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.
+## Project Details:
 
 
-#### Project Requirements
+#### Dataset Used: 
+https://www.kaggle.com/manasdalakoti/univai-hack-data
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-mollit anim id est laborum.
+
+#### For modelling:
+
+
+- Random Forest Classifier:
+
+Accuracy Reached: 95.74%
+
+- XG Boost Classifier:
+
+Accuracy Reached: 93.17%
+
+- Light Gradient Boosting:
+
+Accuracy Reached: 91.10%
+
+- Cat Boost classifier:
+
+Accuracy Reached: 95.74%

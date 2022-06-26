@@ -1,48 +1,41 @@
 ---
-title: "Project Title"
+title: "e- Marketplace"
 date: 2020-05-12T12:14:34+06:00
-image: "images/portfolio/item4.jpg"
-categories: ["database"]
+image: "images/portfolio/emarket.jpg"
+categories: ["Data Science", "Machine Learning"]
 description: "This is meta description."
 draft: false
 project_info:
-- name: "Client"
+- name: "e-MarketPlace"
   icon: "fas fa-user"
-  content: "John Doe"
+  content: "Kushagra Singh"
 - name: "Project Link"
   icon: "fas fa-link"
-  content: "https://examplesite.com/"
-- name: "New Item"
-  icon: "fas fa-globe"
-  content: "Add whatever you want"
-- name: "Loop Item"
-  icon: "fas fa-redo"
-  content: "This is in a loop"
+  content: "https://github.com/kushagrasingh772/e-marketplace"
+# - name: "New Item"
+#   icon: "fas fa-globe"
+#   content: "Add whatever you want"
+# - name: "Loop Item"
+#   icon: "fas fa-redo"
+#   content: "This is in a loop"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-mollit anim id est laborum.
+The objective of this project is to stimulate and represent real-world e-commerce problems and present their solution on a feasible scale. Initial steps included collection and organization of Raw data by creating a web scraper and extracting information through various concerned marketplaces websites, converting the quasi structured data into a more structured and definite form by using various data cleaning tools, and processing the filtered data for building our model.
 
 
-#### Project Details
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.
+## Project Details:
 
+The project started with the collection of the datasets and cleaning.
 
-#### Project Requirements
+- Data Collection : Collection and organization of Raw data by creating a web scraper and extracting information through various concerned marketplaces websites.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-mollit anim id est laborum.
+- Data Cleaning : Converting the quasi-structured data into a more structured and definite form by using various data cleaning tools.
+
+- Data Preprocessing : Processing the filtered data for building our model.
+
+- Exploratory Data Analysis : Making use of various tools for visualizing and analyzing the data and finding patterns and trends in our dataset.
+
+- Applying Machine Learning/ Deep Learning Algorithms : Training our model using various advanced machine learning and deep learning algorithms for the achievement of higher accuracy of price prediction.
+
+- Building Web Application : Making use of Python framework and libraries (Django/Flask) to project our model on a web application for proving a good user interface and reflecting the various trends in the e-commerce market.
