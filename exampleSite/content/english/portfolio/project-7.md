@@ -1,6 +1,6 @@
 ---
 title: "Spotify Music Recommender"
-date: 2020-05-12T12:14:34+06:00
+date: 2022-06-27T12:14:34+06:00
 image: "images/portfolio/sptf.jfif"
 categories: ["Data Science", "Machine Learning"]
 description: "This is meta description."

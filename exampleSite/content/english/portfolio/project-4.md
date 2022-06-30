@@ -1,6 +1,6 @@
 ---
 title: "e- Marketplace"
-date: 2020-05-12T12:14:34+06:00
+date: 2021-12-02T12:14:34+06:00
 image: "images/portfolio/emarket.jpg"
 categories: ["Data Science", "Machine Learning"]
 description: "This is meta description."

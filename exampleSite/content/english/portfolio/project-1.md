@@ -1,6 +1,6 @@
 ---
 title: "College Crypto"
-date: 2020-05-12T12:14:34+06:00
+date: 2022-01-15T12:14:34+06:00
 image: "images/portfolio/crypto.jpg"
 categories: ["Blockchain"]
 description: "This is meta description."

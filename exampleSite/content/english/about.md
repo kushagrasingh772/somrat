@@ -5,7 +5,7 @@ image : "images/backgrounds/photo1.jpg"
 button:
   enable : true
   label : "DOWNLOAD MY CV"
-  link : "https://www.linkedin.com/in/kushagra-singh-16ba661a5/overlay/1635494500951/single-media-viewer/"
+  link : "https://drive.google.com/file/d/1OytJ4bGE28n8NhIiTOqNJjfUvIpQcHH7/view?usp=sharing"
 
 ########################### Experience ##############################
 experience:

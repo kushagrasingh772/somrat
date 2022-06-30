@@ -1,7 +1,7 @@
 
 ---
 title: "Decentra Med"
-date: 2020-05-12T12:14:34+06:00
+date: 2022-05-24T12:14:34+06:00
 image: "images/portfolio/dmed.jpg"
 categories: ["Blockchain","Development"]
 description: "This is meta description."
