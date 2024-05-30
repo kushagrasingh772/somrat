@@ -1,6 +1,11 @@
 ---
 title : "SERVICES"
 service_list:
+
+# service item loop
+- name : "ServiceNow Developer"
+  image : "images/icons/block.jpg"
+
 # service item loop
 - name : "Blockchain Development"
   image : "images/icons/block.jpg"
