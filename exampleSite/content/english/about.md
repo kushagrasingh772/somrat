@@ -5,18 +5,30 @@ image : "images/backgrounds/photo1.jpg"
 button:
   enable : true
   label : "DOWNLOAD MY CV"
-  link : "https://drive.google.com/file/d/1OytJ4bGE28n8NhIiTOqNJjfUvIpQcHH7/view?usp=sharing"
+  link : "https://drive.google.com/file/d/1fMHuM6Wi7DPmvDADiF_OjmxFrYEKUK9l/view?usp=sharing"
 
 ########################### Experience ##############################
 experience:
   enable : true
   title : "EXPERIENCE"
   experience_list:
+
+   # experience item loop
+    - name : "Associate Software Engineer"
+      company : "Deloitte"
+      duration : "(January 2024-present)"
+      content : "Associate Software Engineer in Risk and Financial Advisory of Deloitte USI (O ces of the US).
+ Experienced ServiceNow Developer with a strong background in designing, developing, and
+ implementing custom solutions to streamline business processes. Pro cient in ITSM, ITOM, and
+ work ow automation, ensuring optimal performance and user satisfaction."
+      
     # experience item loop
     - name : "Software Engineer Intern"
       company : "Nagarro"
       duration : "(June 2022-present)"
       content : "I work with HTML, CSS, and Javascript to create websites and web applications like Personal, Business, Blog, E-comerches etc."
+
+     
       
     # experience item loop
     - name : "India Internet Research and Operations Team Intern"
@@ -54,7 +66,11 @@ skill:
   title : "SKILL"
   skill_list:
     # skill item loop
-    - name : "Blockchain"
+    - name : "ServiceNow"
+      percentage : "100%"
+
+      # skill item loop
+    - name : "Front End Development"
       percentage : "98%"
       
     # skill item loop
@@ -70,7 +86,7 @@ skill:
       percentage : "85%"
 
     # skill item loop
-    - name : "Solidity"
+    - name : "Blockchain"
       percentage : "80%"
 
     # skill item loop
@@ -88,4 +104,4 @@ custom_attributes: ""
 custom_css: ""
 ---
 
-Hi my name is Kushagra Singh, I am a data science enthusiast, a competitive programmer and a blockchain developer. I love to write code, it's my passion. My passion for data science helps me to see the immense potential any and every raw data contains, and with the advent of Blockchain and Web 3.0 the possibility of revolutionizing the tech world is endless. I am very excited about these two fields and have devoted a lot of time of mine in learning about them. I would love to interact and work with like minded people inorded to build something or work towards a goal which helps everyone in the grand scheme of things and technology. The future is exciting and great things are about to come! 
+Hi my name is Kushagra Singh, I am an Assocaite Software Enginner @Deloitte and currently working on ServiceNow platform. I am a ServiceNow developer, data science enthusiast, a front end developer and have a keen interest in the Blockchain space.
