@@ -6,6 +6,7 @@ last_name : "Singh"
 bg_image : "images/backgrounds/bgbg.jpg"
 # animated text loop
 occupations:
+- "ServiceNow Developer"
 - "Data Analyst"
 - "BlockChain Developer"
 - "Software Engineer"
