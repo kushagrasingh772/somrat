@@ -4,7 +4,7 @@ service_list:
 
 # service item loop
 - name : "ServiceNow Developer"
-  image : "images/icons/block.jpg"
+  image : "images/icons/works.png"
 
 # service item loop
 - name : "Blockchain Development"
