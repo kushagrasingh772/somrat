@@ -17,7 +17,7 @@ experience:
     - name : "Associate Software Engineer"
       company : "Deloitte"
       duration : "(January 2024-present)"
-      content : "Associate Software Engineer in Risk and Financial Advisory of Deloitte USI (O ces of the US).
+      content : "Associate Software Engineer in Risk and Financial Advisory of Deloitte USI (Offices of the US).
  Experienced ServiceNow Developer with a strong background in designing, developing, and
  implementing custom solutions to streamline business processes. Pro cient in ITSM, ITOM, and
  work ow automation, ensuring optimal performance and user satisfaction."
@@ -104,4 +104,4 @@ custom_attributes: ""
 custom_css: ""
 ---
 
-Hi my name is Kushagra Singh, I am an Assocaite Software Enginner @Deloitte and currently working on ServiceNow platform. I am a ServiceNow developer, data science enthusiast, a front end developer and have a keen interest in the Blockchain space.
+Hello everyone, my name is Kushagra Singh, I am an Assocaite Software Enginner @Deloitte and currently working on ServiceNow platform. I am a ServiceNow developer, data science enthusiast, a front end developer and have a keen interest in the Blockchain space.
