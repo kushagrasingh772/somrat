@@ -281,6 +281,9 @@
     <div class="sn-featured">
       {{ range . }}
       <article class="sn-project wow fadeInUp" data-wow-duration="1.2s">
+        {{ with .image }}
+        <div class="sn-project-art"><img src="{{ . | absURL }}" alt="{{ $.Title }} diagram"></div>
+        {{ end }}
         <ul class="sn-tech list-unstyled">
           {{ range .tech }}<li>{{ . }}</li>{{ end }}
         </ul>

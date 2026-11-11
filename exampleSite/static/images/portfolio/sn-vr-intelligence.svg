@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 250" role="img" aria-label="Vulnerability, CMDB, remediation and change data flowing into an AI investigation that returns bottlenecks, business impact and recommended actions">
+  <style>
+    text { font-family: Rubik, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .pill { fill: rgba(45,212,191,.10); stroke: rgba(45,212,191,.45); }
+    .out { fill: rgba(98,216,78,.12); stroke: rgba(98,216,78,.55); }
+    .lbl { fill: #e6f4f1; font-size: 12.5px; font-weight: 500; }
+    .flow { fill: none; stroke-width: 1.6; stroke-dasharray: 5 7; animation: dash 1.6s linear infinite; }
+    .in { stroke: #2dd4bf; opacity: .75; }
+    .o { stroke: #62d84e; opacity: .85; }
+    .ring { fill: none; stroke: #62d84e; transform-origin: 280px 125px; animation: pulse 2.8s ease-out infinite; }
+    .r2 { animation-delay: 1.4s; }
+    .core { animation: glow 2.8s ease-in-out infinite; }
+    @keyframes dash { to { stroke-dashoffset: -24; } }
+    @keyframes pulse { 0% { transform: scale(.72); opacity: .8; } 100% { transform: scale(1.45); opacity: 0; } }
+    @keyframes glow { 50% { opacity: .75; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <defs>
+    <radialGradient id="g" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#62d84e" stop-opacity=".55"/><stop offset="1" stop-color="#62d84e" stop-opacity="0"/></radialGradient>
+  </defs>
+
+  <g id="flows">
+    <path id="a1" class="flow in" d="M166 37 C210 37 205 125 238 125"/>
+    <path id="a2" class="flow in" d="M166 96 C200 96 205 125 238 125"/>
+    <path id="a3" class="flow in" d="M166 154 C200 154 205 125 238 125"/>
+    <path id="a4" class="flow in" d="M166 213 C210 213 205 125 238 125"/>
+    <path id="b1" class="flow o" d="M322 125 C356 125 356 58 398 58"/>
+    <path id="b2" class="flow o" d="M322 125 L398 125"/>
+    <path id="b3" class="flow o" d="M322 125 C356 125 356 192 398 192"/>
+  </g>
+  <g fill="#b8fff0">
+    <circle r="3"><animateMotion dur="2.4s" repeatCount="indefinite"><mpath href="#a1"/></animateMotion></circle>
+    <circle r="3"><animateMotion dur="2.4s" begin=".6s" repeatCount="indefinite"><mpath href="#a2"/></animateMotion></circle>
+    <circle r="3"><animateMotion dur="2.4s" begin="1.2s" repeatCount="indefinite"><mpath href="#a3"/></animateMotion></circle>
+    <circle r="3"><animateMotion dur="2.4s" begin="1.8s" repeatCount="indefinite"><mpath href="#a4"/></animateMotion></circle>
+  </g>
+  <g fill="#d7ffd0">
+    <circle r="3"><animateMotion dur="2s" begin=".3s" repeatCount="indefinite"><mpath href="#b1"/></animateMotion></circle>
+    <circle r="3"><animateMotion dur="2s" begin="1s" repeatCount="indefinite"><mpath href="#b2"/></animateMotion></circle>
+    <circle r="3"><animateMotion dur="2s" begin="1.6s" repeatCount="indefinite"><mpath href="#b3"/></animateMotion></circle>
+  </g>
+
+  <g>
+    <rect class="pill" x="2" y="19" width="164" height="36" rx="9"/><text class="lbl" x="84" y="41.5" text-anchor="middle">Vulnerable Items</text>
+    <rect class="pill" x="2" y="78" width="164" height="36" rx="9"/><text class="lbl" x="84" y="100.5" text-anchor="middle">CMDB · Business Services</text>
+    <rect class="pill" x="2" y="136" width="164" height="36" rx="9"/><text class="lbl" x="84" y="158.5" text-anchor="middle">Remediation Tasks</text>
+    <rect class="pill" x="2" y="195" width="164" height="36" rx="9"/><text class="lbl" x="84" y="217.5" text-anchor="middle">Change Requests</text>
+  </g>
+
+  <circle cx="280" cy="125" r="78" fill="url(#g)"/>
+  <circle class="ring" cx="280" cy="125" r="46"/>
+  <circle class="ring r2" cx="280" cy="125" r="46"/>
+  <circle class="core" cx="280" cy="125" r="42" fill="#62d84e"/>
+  <text x="280" y="121" text-anchor="middle" font-size="15" font-weight="700" fill="#021c2b">AI</text>
+  <text x="280" y="137" text-anchor="middle" font-size="10.5" font-weight="600" fill="#021c2b">Investigation</text>
+
+  <g>
+    <rect class="out" x="398" y="40" width="154" height="36" rx="9"/><text class="lbl" x="475" y="62.5" text-anchor="middle">Remediation bottlenecks</text>
+    <rect class="out" x="398" y="107" width="154" height="36" rx="9"/><text class="lbl" x="475" y="129.5" text-anchor="middle">Business impact</text>
+    <rect class="out" x="398" y="174" width="154" height="36" rx="9"/><text class="lbl" x="475" y="196.5" text-anchor="middle">Recommended actions</text>
+  </g>
+</svg>

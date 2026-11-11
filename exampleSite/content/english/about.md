@@ -5,7 +5,7 @@ image : "images/backgrounds/kushagra.jpg"
 button:
   enable : true
   label : "DOWNLOAD MY CV"
-  link : "https://drive.google.com/file/d/1fMHuM6Wi7DPmvDADiF_OjmxFrYEKUK9l/view?usp=sharing"
+  link : "https://drive.google.com/file/d/1oVh8OEK9XvYVEB2FRpJ9r3axsKBcMbhJ/view?usp=sharing"
 
 # quick focus areas shown under the intro
 focus:
@@ -37,7 +37,7 @@ experience:
 
     # experience item loop
     - name : "Software Engineer"
-      company : "Deloitte"
+      company : "Deloitte USI"
       duration : "Jan 2024 – Dec 2025"
       points :
         - "Designed the ServiceNow IRM Control Ecosystem data model, linking controls, risks, issues, and customer cases to strengthen risk governance, compliance, and reporting."
@@ -50,38 +50,38 @@ experience:
     # experience item loop
     - name : "Software Engineer Intern"
       company : "Nagarro"
-      duration : "June 2022 – present"
-      content : "I work with HTML, CSS, and Javascript to create websites and web applications like Personal, Business, Blog, E-comerches etc."
+      duration : "2022"
+      content : "Built responsive websites and web applications with HTML, CSS and JavaScript, spanning personal, business, blog and e-commerce use cases."
 
     # experience item loop
-    - name : "India Internet Research and Operations Team Intern"
-      company : "Oppo"
-      duration : "January 2022 – May 2022"
-      content : "Worked as an Intern lead and used data tools to analyze the data related to Mobile gaming, inorder to produce quality content for the One Plus Games App and undertook responisibility of the work of my team as well."
+    - name : "Internet Research & Operations Intern"
+      company : "OPPO India"
+      duration : "Jan 2022 – May 2022"
+      content : "Led a team of interns analysing mobile-gaming data to shape content strategy for the OnePlus Games app, and owned the quality and delivery of the team's work."
 
     # experience item loop
-    - name : "Machine Learning/Data Science Coordinator"
-      company : "Google Developer Students Club JIIT128"
-      duration : "2021 – present"
-      content : "Part of the core team of Google Developer Students Club of Jaypee Institute of Information Technology sector 128 chapter. Held various Hackathons with the team and organized talks regarding various subjects such as Cyber Security, Machine Learning, Data Science, Web Development"
+    - name : "Machine Learning & Data Science Coordinator"
+      company : "Google Developer Student Clubs, JIIT-128"
+      duration : "2021 – 2023"
+      content : "Core team member of the Google Developer Student Clubs chapter at Jaypee Institute of Information Technology. Organised hackathons and technical talks on cyber security, machine learning, data science and web development."
 
     # experience item loop
     - name : "Core Member"
       company : "JIIT Open-Source Developers Circle"
       duration : "2020 – 2021"
-      content : "Part of the core team of JIIT Open-Source Developers Circle of Jaypee Institute of Information Technology sector 128. Helped the team carry out various activities related to open source to create awareness about it."
+      content : "Core team member of the university's open-source community. Planned and ran events that introduced students to open-source tools and contribution."
+
+    # experience item loop
+    - name : "Digital & Social Media Head"
+      company : "Panache, Fashion Society of JIIT-128"
+      duration : "2019 – 2023"
+      content : "Led the society's digital presence and social media channels, and helped organise its competitions and events."
 
     # experience item loop
     - name : "Volunteer"
-      company : "NSS- National Service Scheme"
-      duration : "2019 – present"
-      content : "Took part in various NSS activites and did social welfare work ranging from organizing and taking part in Blood Donation Drive, Literacy drives, Organizing teaching sessions for the economical weaker section of students and did other social service work."
-
-    # experience item loop
-    - name : "Digital/Social Media Head"
-      company : "Panache- Fashion Society of JIIT128"
-      duration : "2019 – present"
-      content : "Digital head of Panache- Fashion Society of Jaypee Institute of Information Technology sector 128. Helped the team organize various competitions and lead the social handles of the team."
+      company : "National Service Scheme (NSS)"
+      duration : "2019 – 2023"
+      content : "Contributed to social-welfare initiatives including blood donation drives, literacy campaigns and teaching sessions for students from economically weaker backgrounds."
 
 ############################### Skills #################################
 skills:
@@ -145,4 +145,6 @@ custom_css: ""
 
 I'm Kushagra Singh, a ServiceNow developer and Consultant at KPMG India. I build on the Now Platform across Security Operations (Vulnerability Response), IRM/GRC, CSM and CMDB, designing the data models, workflows and integrations that banking and government teams run on.
 
-I also bring GenAI into the platform, connecting ServiceNow with OpenAI, Databricks and Archer through REST APIs, and I use Claude Code and ServiceNow Build Agent to ship faster. Before KPMG, I was a Software Engineer at Deloitte.
+I also bring GenAI into the platform, connecting ServiceNow with OpenAI, Databricks and Archer through REST APIs, and I use Claude Code and ServiceNow Build Agent to ship faster. Before KPMG, I spent two years as a Software Engineer at Deloitte USI.
+
+I hold a B.Tech in Computer Science from Jaypee Institute of Information Technology, Noida, and I'm based in Gurugram, India.
