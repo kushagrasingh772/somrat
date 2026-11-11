@@ -50,7 +50,7 @@ experience:
     # experience item loop
     - name : "Software Engineer Intern"
       company : "Nagarro"
-      duration : "2022"
+      duration : "Jun 2022 – Sep 2022"
       content : "Built responsive websites and web applications with HTML, CSS and JavaScript, spanning personal, business, blog and e-commerce use cases."
 
     # experience item loop
@@ -62,7 +62,7 @@ experience:
     # experience item loop
     - name : "Machine Learning & Data Science Coordinator"
       company : "Google Developer Student Clubs, JIIT-128"
-      duration : "2021 – 2023"
+      duration : "2021 – 2022"
       content : "Core team member of the Google Developer Student Clubs chapter at Jaypee Institute of Information Technology. Organised hackathons and technical talks on cyber security, machine learning, data science and web development."
 
     # experience item loop
