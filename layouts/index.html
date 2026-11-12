@@ -18,6 +18,8 @@
     <div class="slider"><img class="img-fluid" src="{{ . | absURL }}" alt="slider-background"></div>
     {{ end }}
   </div>
+  <div class="hero-aurora" aria-hidden="true"><span></span><span></span><span></span></div>
+  <canvas id="hero-canvas" aria-hidden="true"></canvas>
   <div class="container">
     <div class="row content">
       <div class="col-lg-8 col-lg-offset-2 col-sm-8 col-sm-offset-2 head-container">
@@ -218,7 +220,7 @@
     </div>
     <ul class="sn-timeline list-unstyled">
       {{ range .experience_list }}
-      <li class="sn-role{{ if .points }} sn-role-major{{ end }} wow fadeInUp" data-wow-duration="1.2s">
+      <li class="sn-role{{ if .featured }} sn-role-major{{ end }} wow fadeInUp" data-wow-duration="1.2s">
         <div class="sn-role-head">
           <div>
             <h3>{{ .name | markdownify }}</h3>
@@ -245,6 +247,7 @@
 {{ with .Params.skills }}
 {{ if .enable }}
 <section class="sn-section sn-dark sn-skills" id="skills">
+  <div class="sn-motion" aria-hidden="true"><span></span><span></span></div>
   <div class="container">
     <div class="sn-heading wow fadeInUp" data-wow-duration="1.5s">
       <div class="bar"></div>
@@ -338,6 +341,7 @@
 {{ with .GetPage "blog" }}
 {{ with .Params.coming_soon }}
 <section class="sn-section sn-dark sn-soon" id="contact">
+  <div class="sn-motion" aria-hidden="true"><span></span><span></span></div>
   <div class="container text-center wow fadeInUp" data-wow-duration="1.5s">
     <span class="sn-soon-badge">{{ .heading }}</span>
     <h1>Contact &amp; Blog</h1>

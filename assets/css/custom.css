@@ -1008,3 +1008,148 @@ input:checked+label span {
     padding: 24px 20px;
   }
 }
+
+/* ---------- Moving backgrounds ---------- */
+
+.header .slider {
+  animation: sn-drift 24s ease-in-out infinite alternate;
+}
+
+.hero-aurora,
+#hero-canvas,
+.sn-motion {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.hero-aurora {
+  z-index: 9;
+  overflow: hidden;
+  mix-blend-mode: screen;
+}
+
+.hero-aurora span,
+.sn-motion span {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(70px);
+  will-change: transform;
+}
+
+.hero-aurora span:nth-child(1) {
+  width: 46vw;
+  height: 46vw;
+  right: -8vw;
+  top: -14vw;
+  background: rgba(98, 216, 78, .34);
+  animation: sn-float-a 16s ease-in-out infinite alternate;
+}
+
+.hero-aurora span:nth-child(2) {
+  width: 38vw;
+  height: 38vw;
+  right: 18vw;
+  bottom: -18vw;
+  background: rgba(45, 212, 191, .30);
+  animation: sn-float-b 20s ease-in-out infinite alternate;
+}
+
+.hero-aurora span:nth-child(3) {
+  width: 30vw;
+  height: 30vw;
+  left: -8vw;
+  top: 30%;
+  background: rgba(56, 132, 255, .22);
+  animation: sn-float-c 24s ease-in-out infinite alternate;
+}
+
+#hero-canvas {
+  z-index: 10;
+}
+
+.sn-dark {
+  position: relative;
+  overflow: hidden;
+}
+
+.sn-dark>.container {
+  position: relative;
+  z-index: 1;
+}
+
+.sn-motion {
+  background-image: linear-gradient(rgba(255, 255, 255, .035) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, .035) 1px, transparent 1px);
+  background-size: 56px 56px;
+  animation: sn-grid 14s linear infinite;
+}
+
+.sn-motion span:nth-child(1) {
+  width: 520px;
+  height: 520px;
+  right: -120px;
+  top: -200px;
+  background: rgba(98, 216, 78, .22);
+  animation: sn-float-b 18s ease-in-out infinite alternate;
+}
+
+.sn-motion span:nth-child(2) {
+  width: 460px;
+  height: 460px;
+  left: -140px;
+  bottom: -220px;
+  background: rgba(45, 212, 191, .20);
+  animation: sn-float-a 22s ease-in-out infinite alternate;
+}
+
+@keyframes sn-drift {
+  from {
+    transform: scale(1.08) translate3d(1%, 1%, 0);
+  }
+
+  to {
+    transform: scale(1.18) translate3d(-1.5%, -1.5%, 0);
+  }
+}
+
+@keyframes sn-float-a {
+  to {
+    transform: translate3d(-12vw, 10vw, 0) scale(1.2);
+  }
+}
+
+@keyframes sn-float-b {
+  to {
+    transform: translate3d(-16vw, -8vw, 0) scale(.85);
+  }
+}
+
+@keyframes sn-float-c {
+  to {
+    transform: translate3d(14vw, -10vw, 0) scale(1.25);
+  }
+}
+
+@keyframes sn-grid {
+  to {
+    background-position: 56px 56px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .header .slider,
+  .hero-aurora span,
+  .sn-motion,
+  .sn-motion span,
+  .portrait:before {
+    animation: none;
+  }
+}
+
+/* keep each zooming slide inside its own frame */
+.owl-full-width .owl-item {
+  overflow: hidden;
+}

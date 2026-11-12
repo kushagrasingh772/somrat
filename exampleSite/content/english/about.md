@@ -24,6 +24,7 @@ experience:
 
     # experience item loop
     - name : "Consultant"
+      featured : true
       company : "KPMG India"
       duration : "Jan 2026 – Present"
       points :
@@ -37,6 +38,7 @@ experience:
 
     # experience item loop
     - name : "Software Engineer"
+      featured : true
       company : "Deloitte USI"
       duration : "Jan 2024 – Dec 2025"
       points :
@@ -51,37 +53,57 @@ experience:
     - name : "Software Engineer Intern"
       company : "Nagarro"
       duration : "Jun 2022 – Sep 2022"
-      content : "Built responsive websites and web applications with HTML, CSS and JavaScript, spanning personal, business, blog and e-commerce use cases."
+      points :
+        - "Built responsive web applications with JavaScript, HTML and CSS, including business, blog and e-commerce sites."
+        - "Wrote client-side scripts for form validation, dynamic UI behaviour and DOM manipulation, the same scripting foundation behind ServiceNow client scripts and UI policies."
+        - "Worked with REST APIs and JSON data to drive data-backed pages, groundwork for the REST integrations I now build on the Now Platform."
+        - "Completed Nagarro's structured training assignments, building habits of clean, modular and reusable code that carry into ServiceNow development."
 
     # experience item loop
     - name : "Internet Research & Operations Intern"
       company : "OPPO India"
       duration : "Jan 2022 – May 2022"
-      content : "Led a team of interns analysing mobile-gaming data to shape content strategy for the OnePlus Games app, and owned the quality and delivery of the team's work."
+      points :
+        - "Led a team of interns on the India Internet Research and Operations team, coordinating the work and owning the team's deliverables."
+        - "Analysed mobile-gaming data and trends with data tools to understand what players engage with."
+        - "Turned those insights into content strategy and high-quality content for the OnePlus Games app."
+        - "Reviewed the team's output for quality and consistency before it went out, taking accountability for the final result."
 
     # experience item loop
     - name : "Machine Learning & Data Science Coordinator"
       company : "Google Developer Student Clubs, JIIT-128"
       duration : "2021 – 2022"
-      content : "Core team member of the Google Developer Student Clubs chapter at Jaypee Institute of Information Technology. Organised hackathons and technical talks on cyber security, machine learning, data science and web development."
+      points :
+        - "Served on the core team of the Google Developer Student Clubs chapter at JIIT, coordinating its machine learning and data science activities."
+        - "Organised hackathons with the team, from planning through to event-day execution."
+        - "Arranged technical talks on cyber security, machine learning, data science and web development."
 
     # experience item loop
     - name : "Core Member"
       company : "JIIT Open-Source Developers Circle"
       duration : "2020 – 2021"
-      content : "Core team member of the university's open-source community. Planned and ran events that introduced students to open-source tools and contribution."
+      points :
+        - "Served on the core team of the university's open-source community."
+        - "Helped plan and run activities that raised awareness of open source and encouraged students to start contributing."
 
     # experience item loop
     - name : "Digital & Social Media Head"
       company : "Panache, Fashion Society of JIIT-128"
       duration : "2019 – 2023"
-      content : "Led the society's digital presence and social media channels, and helped organise its competitions and events."
+      points :
+        - "Headed digital and social media for Panache, the fashion society of JIIT-128."
+        - "Managed the society's social media handles and grew its online presence."
+        - "Helped the team plan and organise competitions and events."
 
     # experience item loop
     - name : "Volunteer"
       company : "National Service Scheme (NSS)"
       duration : "2019 – 2023"
-      content : "Contributed to social-welfare initiatives including blood donation drives, literacy campaigns and teaching sessions for students from economically weaker backgrounds."
+      points :
+        - "Organised and took part in blood donation drives."
+        - "Supported literacy drives in the local community."
+        - "Organised teaching sessions for students from economically weaker backgrounds."
+        - "Contributed to wider social-service and community-welfare activities throughout university."
 
 ############################### Skills #################################
 skills:
